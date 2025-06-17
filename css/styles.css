@@ -11310,3 +11310,19 @@ section#contact form#contactForm :-ms-input-placeholder {
   height: 200px;
   object-fit: contain;
 }
+
+ .boton-comprar {
+    background-color: #28a745; /* Verde tipo WhatsApp */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .boton-comprar:hover {
+    background-color: #218838;
+  }

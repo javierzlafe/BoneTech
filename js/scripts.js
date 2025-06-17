@@ -67,3 +67,21 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 
 });
+
+  function comprar(elemento) {
+    // Obtenemos el valor del producto desde el atributo
+    const producto = elemento.getAttribute("data-product");
+    
+    // Codificamos el texto para que sea compatible con URL
+    const mensaje = encodeURIComponent(`Hola, quiero averiguar por ${producto}`);
+
+    // Número de WhatsApp con el que querés que se comuniquen (agregalo con código de país sin +)
+    const telefono = "1167570011"; // cambiá este número por el tuyo real
+
+    // Creamos el enlace
+    const url = `https://wa.me/${telefono}?text=${mensaje}`;
+
+    // Abrimos el enlace en una nueva pestaña
+    window.open(url, "_blank");
+  }
+
