@@ -59,7 +59,7 @@ window.addEventListener('DOMContentLoaded', event => {
             const encodedText = encodeURIComponent(text);
 
             // Número real de BoneTech con código de país, sin "+" ni espacios
-            const phoneNumber = "1167570011";
+            const phoneNumber = "2235845645";
             const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedText}`;
 
             window.open(whatsappURL, "_blank");
@@ -76,7 +76,7 @@ window.addEventListener('DOMContentLoaded', event => {
     const mensaje = encodeURIComponent(`Hola, quiero averiguar por ${producto}`);
 
     // Número de WhatsApp con el que querés que se comuniquen (agregalo con código de país sin +)
-    const telefono = "1167570011"; // cambiá este número por el tuyo real
+    const telefono = "2235845645"; // cambiá este número por el tuyo real
 
     // Creamos el enlace
     const url = `https://wa.me/${telefono}?text=${mensaje}`;
